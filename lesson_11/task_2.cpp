@@ -7,7 +7,7 @@ int main()
     do{
         cout<<"enter the number: "<<endl;
         cin>>x;                     //запрашиваем число
-    }while(x<0 or x>10 or x==5 ); //ставим ограничение
+    }while(x<0 || x>10 || x==5 ); //ставим ограничение
 
     cout<<x*10<<endl;
 
