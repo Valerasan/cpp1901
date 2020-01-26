@@ -5,7 +5,7 @@
  
 - ### Lessons 
   - lesson 1 **06.10.19**
-  > основы
+  >основы
   - lesson 2 **13.10.19**
   >cout,cin
   - lesson 3 **20.10.19**
@@ -38,7 +38,8 @@
 # Terminal commands
 | Command | Description |
 |   :---:   |  --------   |
-| cd  |  переход межу директориями|
+| cd ..  |  переход в директорию выше |
+| cd (название)/| преходит в заданую директорию|
 | mkdir| создание директории |
 |touch|  создание файла |
 |ls|выводит список всех файлов|
@@ -46,6 +47,13 @@
 |make| **make (названеи файла но без размера файла)**,компилирует файл|
 |./  | **./(название файла)** запускает программу|
 
+# Git config
+| Command | Description|
+|:---:|-------|
+|git init| инициализирование гита |
+|git config --global user.name "FIRST_NAME LAST_NAME"|Установите ваше имя пользователя|
+|git config --global user.email "OUR_NAME@example.com"|Установите адрес электронной почты|
+|git remote add origin https://github.com/Valerasan/cpp1901 | указывает путь для репозитория |
 
 # Git commands
 | Command | Description |
