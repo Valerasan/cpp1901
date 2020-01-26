@@ -5,10 +5,20 @@
  
 - ### Lessons 
   - lesson 1 **06.10.19**
+  > основы
   - lesson 2 **13.10.19**
-  
+  >cout,cin
   - lesson 3 **20.10.19**
+  >tupes
   - lesson 4 **27.10.19**
+  >first functions
+  - lesson 5 **04.11.19**
+  >more functions
+  - lesson 6 **11.11.19**
+  >more advanced functions
+  - lesson 7 **18.11.19**
+  >switch,if
+  - lesson 8 **2
   
 - ### Tests
   - test 1 **27.11.19**
