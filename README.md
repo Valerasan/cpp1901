@@ -18,7 +18,8 @@
   >more advanced functions
   - lesson 7 **18.11.19**
   >switch,if
-  - lesson 8 **2
+  - lesson 8 **25.11.19**
+  >def,size
   
 - ### Tests
   - test 1 **27.11.19**
