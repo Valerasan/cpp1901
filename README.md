@@ -44,7 +44,7 @@
 #### git push
 >Команда git push используется для установления связи с удалённым репозиторием, вычисления локальных изменений отсутствующих в нём, и собственно их передачи в вышеупомянутый репозиторий. Этой команде нужно право на запись в репозиторий, поэтому она использует аутентификацию.
 ### Литература 
- -Basic Syntax
-  <https://www.markdownguide.org/basic-syntax/>
- -Git commands
-  <https://proglib.io/p/git-cheatsheet>
+ - Basic Syntax
+   <https://www.markdownguide.org/basic-syntax/>
+ - Git commands
+   <https://proglib.io/p/git-cheatsheet>
