@@ -8,13 +8,13 @@
 |Lesson|Date|Discription|
 |:---:|:---:|-----------|
 |lesson 1| **06.10.19**|основы|
-|lesson 2| **13.10.19**|cout,cin|
+|lesson 2| **13.10.19**|**cout; cin**|
 |lesson 3| **20.10.19**|types|
 |lesson 4| **27.10.19**|first functions|
 |lesson 5| **04.11.19**|more functions|
 |lesson 6| **11.11.19**|more advanced functions|
-|lesson 7| **18.11.19**|switch,if|
-|lesson 8| **25.11.19**|def,size|
+|lesson 7| **18.11.19**|**switch; if**|
+|lesson 8| **25.11.19**|**def; size**|
 |lesson 9| **02.12.19**|логические елементы |
   
 - ### Tests
