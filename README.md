@@ -20,6 +20,8 @@
   >switch,if
   - lesson 8 **25.11.19**
   >def,size
+  - lesson 9 **2.12.19**
+  >логические елементы **(and-&&;or-||;not-!=)**
   
 - ### Tests
   - test 1 **27.11.19**
