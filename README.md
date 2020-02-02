@@ -4,24 +4,18 @@
 
  
 - ### Lessons 
-  - lesson 1 **06.10.19**
-  >основы
-  - lesson 2 **13.10.19**
-  >cout,cin
-  - lesson 3 **20.10.19**
-  >types
-  - lesson 4 **27.10.19**
-  >first functions
-  - lesson 5 **04.11.19**
-  >more functions
-  - lesson 6 **11.11.19**
-  >more advanced functions
-  - lesson 7 **18.11.19**
-  >switch,if
-  - lesson 8 **25.11.19**
-  >def,size
-  - lesson 9 **2.12.19**
-  >логические елементы **(and-&&; or-||; not-!=)**
+
+|Lesson|Date|Discription|
+|:---:|:---:|-----------|
+|lesson 1| **06.10.19**|основы|
+|lesson 2| **13.10.19**|cout,cin|
+|lesson 3| **20.10.19**|types|
+|lesson 4| **27.10.19**|first functions|
+|lesson 5| **04.11.19**|more functions|
+|lesson 6| **11.11.19**|more advanced functions|
+|lesson 7| **18.11.19**|switch,if|
+|lesson 8| **25.11.19**|def,size|
+|lesson 9| **02.12.19**|логические елементы **(and-&&; or-||; not-!=)**|
   
 - ### Tests
   - test 1 **27.11.19**
@@ -37,7 +31,7 @@
   > - заменить числа масива
     
 ### Основной шаблон
-```
+```json
 #include <iostream>
 //using namespace std;
 
@@ -49,7 +43,12 @@ int main()
 }
 ``` 
     
-    
+# Логические елементы
+|елемент|код|
+|:---:|:---:|
+|and| **&&** |
+|or | **\|\|** |
+|not| **!=** |
 # Terminal commands
 | Command | Description |
 |   :---:   |  --------   |
