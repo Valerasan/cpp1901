@@ -15,7 +15,7 @@
 |lesson 6| **11.11.19**|more advanced functions|
 |lesson 7| **18.11.19**|switch,if|
 |lesson 8| **25.11.19**|def,size|
-|lesson 9| **02.12.19**|логические елементы **(and-&&; or-||; not-!=)**|
+|lesson 9| **02.12.19**|логические елементы |
   
 - ### Tests
   - test 1 **27.11.19**
@@ -31,7 +31,7 @@
   > - заменить числа масива
     
 ### Основной шаблон
-```json
+```c++
 #include <iostream>
 //using namespace std;
 
