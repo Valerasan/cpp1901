@@ -9,7 +9,7 @@
   - lesson 2 **13.10.19**
   >cout,cin
   - lesson 3 **20.10.19**
-  >tupes
+  >types
   - lesson 4 **27.10.19**
   >first functions
   - lesson 5 **04.11.19**
