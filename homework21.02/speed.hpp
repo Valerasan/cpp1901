@@ -10,8 +10,8 @@ int CONSTANTA()
 int speed(int S_time)
 {
     const int numberOfLines = CONSTANTA();
-    short summ2 = 0;
-    short speed[numberOfLines];
+    float summ2 = 0;
+    float speed[numberOfLines];
     for(int y = 0; y<counter(); y++)
     {
         speed[y]=line(y)/S_time;
