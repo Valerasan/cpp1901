@@ -3,6 +3,7 @@
 
 int lines()
 {
+    srand(time(0));
     int counter =  Random(15 , 20);
     int line[counter];
     int summ = 0;
