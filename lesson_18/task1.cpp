@@ -3,54 +3,69 @@
 #include <cstdlib>
 #include <ctime>
 int randomNumber();
-
+int getNameFromUser();
+int randomArray();
 
 int main()
 {
     srand(time(0));
-    std::string name="";
-    std::cout<<"Enter your name:"<<std::endl;
-    std::cin>>name;
-    std::cout<<"Hello! "<<name<<",number "<<name.length()<<std::endl;
-    std::cout<<std::endl;
-    const int COUNT =randomNumber();
-    std::cout<<"const:"<<COUNT<<std::endl;
-    int arr[COUNT];
-    int x = 0;
-    for(int index = 0; index<COUNT; index++)
-    {
-        x=x+1;
-        arr[index]=randomNumber();
-        std::cout<<x<<")"<<arr[index]<<std::endl;
-    }
+    int numbering = 0;
     float avarage = 0;
-    for(int index = 0; index<COUNT; index++){avarage=avarage+arr[index];}
-    std::cout<<"среднее арифметическое:"<<avarage/COUNT<<std::endl;
+    int fullSumm = 0;
+    int fullSumNumber2 = 0;
 
+    const int COUNT = getNameFromUser();
+    int arr[COUNT];
 
+    // for(int index = 0; index < COUNT; index++)
+    // {
+    //     numbering = numbering+1;
+    //     arr[index] = randomNumber();
+    //     std::cout << numbering << ")" << arr[index] << std::endl;
+    // }
 
-    int sum = 0;
-    for (int index = 0; index<COUNT ; index ++)
+    for(int index = 0; index < COUNT; index ++){avarage += arr[index];}
+    std::cout<<"avarage:"<<avarage/COUNT<<std::endl;
+
+/////////////////////Сумма
+    for (int index = 0; index < COUNT ; index ++){fullSumm += arr[index];}
+    std::cout << "sum of arrays:" << fullSumm << std::endl;
+    std::cout << std::endl;
+////////////////////////Сумма чисел кратных двум
+    for (int index = 0; index < COUNT ; index ++)
     {
-        sum = sum + arr[index];
-    }
-    std::cout<<"sum of arrays:"<<sum<<std::endl;
-    std::cout<<std::endl;
-    int sum2 = 0;
-    for (int index = 0; index<COUNT ; index ++)
-    {
-        if (arr[index]%2==0){sum2 = sum2 + arr[index];}
+        if (arr[index] % 2 == 0){fullSumNumber2 += arr[index];}
         else{std::cout<<"";}
     }
-    std::cout<<"sum2 of arrays:"<<sum2<<std::endl;
+    std::cout << "sum2 of arrays:" << fullSumNumber2 << std::endl;
 
 
     return 0;
 }
 
+
 int randomNumber()
 {
-    int ranNumber =(rand()%10);
-    return ranNumber;
+    int randNumber = (rand()%10);
+    return randNumber;
 }
 
+int getNameFromUser()
+{
+    std::string name;
+    std::cout << "Enter your name:" << std::endl;
+    std::cin>>name;
+    std::cout << "Hello, " << name << "!" << "Your name has " << name.length() << " characters" << std::endl;
+
+    return name.length();
+}
+// int randomArray(int COUNT , int index)
+// {
+//         for(int index = 0; index < COUNT; index++)
+//         {
+//             numbering = numbering+1;
+//             arr[index] = randomNumber();
+//             std::cout << numbering << ")" << arr[index] << std::endl;
+//         }
+//     return arr[index];
+// }

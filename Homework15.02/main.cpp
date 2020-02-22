@@ -3,7 +3,6 @@
 #include <cstdlib>
 #include <ctime>
 #include "func.hpp"
-int randomNumber();
 
 
 int main()
