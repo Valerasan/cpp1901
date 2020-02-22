@@ -1,5 +1,5 @@
-#include <iostream>
 #include "lines.hpp"
+#include <iostream>
 
 int speed(const int TIME)
 {
