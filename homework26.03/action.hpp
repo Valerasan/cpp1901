@@ -154,14 +154,14 @@ void addClient(std::vector<auto> &myVec)
     std::cin >> tmp.age;
 
 
-    tmp.c_date = c_time();
-    std::cout << "Married True/False: ";
-    std::cin >> tmp.married;
+    // tmp.c_date = c_time();
+    // std::cout << "Married True/False: ";
+    // std::cin >> tmp.married;
 
-    tmp.c_property = c_objects();
-    tmp.adress = c_adress();
-    tmp.c_profit = wage();
-    tmp.credit = credit();
+    // tmp.c_property = c_objects();
+    // tmp.adress = c_adress();
+    // tmp.c_profit = wage();
+    // tmp.credit = credit();
 
 
     myVec.push_back(tmp);
@@ -169,18 +169,32 @@ void addClient(std::vector<auto> &myVec)
 
 }
 
-void listOfClient(std::vector<auto> &myVec)
+void listOfClient(std::vector<auto> &myVec )
 {
-    // std::cout << "Client index: " <<
-    std::cout << myVec.surname << " " << myVec.name << std::endl;
-    std::cout << "Age: " << myVec.age << std::endl;
-    std::cout << "Date of birth: " << myVec.c_date.day << "." << myVec.c_date.month << "." << myVec.c_date.year << std::endl;
-    std::cout << "Mariede " << myVec.married << std::endl;
-    std::cout << "Propery: " ;
-    // for (auto const &element : myVec.c_property){std::cout<< element<<' ';}
+    int index = 0;
+    // int i = 0;
+    // for (auto const &element : myVec)
+    // {
+    //     i = element.cend();
+    //     std::cout<< element.name<<' ';
+    // }
     // std::cout<<std::endl;
-    // // std::cout << "Clidren: ";
-    // std::cout << "Adress: " << myVec.street << "  " << myVec.hous_number ;
+
+    std::cout << "Enter the index of client: ";
+    std::cin >> index;
+
+
+
+    std::cout << "Client index: [" << index << "]" << std::endl;
+    std::cout << myVec[index].surname << " " << myVec[index].name << std::endl;
+    std::cout << "Age: " << myVec[index].age << std::endl;
+    std::cout << "Date of birth: " << myVec[index].c_date.day << "." << myVec[index].c_date.month << "." << myVec[index].c_date.year << std::endl;
+    std::cout << "Mariede " << myVec[index].married << std::endl;
+    std::cout << "Propery: " ;
+    // for (auto const &element : myVec[index]){std::cout<< element[index].c_property<<' ';}
+    // std::cout<<std::endl;
+    // std::cout << "Clidren: ";
+    std::cout << "Adress: " << myVec[index].adress.street << "  " << myVec[index].adress.hous_number ;
 
 
 
