@@ -20,7 +20,7 @@ typedef struct
 {
     enum Children
     {
-        CHILDREN_ZERO,
+        ZERO,
         CHILDREN_ONE,
         CHILDREN_TWO,
         CHILDREN_THREE,
@@ -42,13 +42,13 @@ typedef struct
 typedef struct
 {
     int count;
-    int corrency;
+    int currency;
 } profit;
 
 typedef struct
 {
     int count;
-    int percent;
+    float percent;
 } credit_amount;
 
 
@@ -65,8 +65,8 @@ typedef struct
     workplace adress;
     profit c_profit;
     credit_amount credit;
-    
-    
+
+
 } customer;
 
 #endif

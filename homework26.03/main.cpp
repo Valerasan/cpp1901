@@ -8,7 +8,7 @@ int main()
 {
     std::vector <customer> client;
     addClient(client);
-
+    listOfClient(client);
 
 
     return 0;
