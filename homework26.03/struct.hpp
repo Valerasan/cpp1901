@@ -42,7 +42,7 @@ typedef struct
 typedef struct
 {
     int count;
-    int currency;
+    std::string currency;
 } profit;
 
 typedef struct
