@@ -158,7 +158,7 @@ void addClient(std::vector<auto> &myVec)
     std::cout << "Enter your age: ";
     std::cin >> tmp.age;
     tmp.c_date = c_time();
-    std::cout << "Married True/False: ";
+    std::cout << "Married 1-Yes/0-No: ";
     std::cin >> tmp.married;
     tmp.c_property = c_objects();
     tmp.adress = c_adress();
