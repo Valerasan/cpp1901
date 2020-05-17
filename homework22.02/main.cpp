@@ -7,4 +7,5 @@ int main()
     std::cout<<"Enter the time:"<<std::endl;
     std::cin>>timeFromP;
     speed(timeFromP);
+    return 0;
 }

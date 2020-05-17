@@ -4,7 +4,7 @@
 int lines()
 {
     srand(time(0));
-    int counter =  Random(15 , 20);
+    int counter =  random(15 , 20);
     int line[counter];
     int summ = 0;
     std::cout<<"------------------------------------------"<<std::endl;
@@ -12,7 +12,7 @@ int lines()
     std::cout<<"------------------------------------------"<<std::endl;
     for(int i = 0 ; i < counter ; i++)
     {
-        line[i]=Random(31 , 39);
+        line[i]=random(31 , 39);
         std::cout<<"Отрезок ["<<i<<"]  = "<<line[i]<<std::endl;
         summ +=line[i];
     }

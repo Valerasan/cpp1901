@@ -23,6 +23,16 @@ std::string get_string()
 
 void delete_item(std::vector<auto> &myVec)
 {
+    int index = 0;
+    std::cout << "-------------------------------------------"<<std::endl;
+    for (int i = 0; i < myVec.size(); i++)
+    {
+        std::cout << i << ") " << meVec[i].surname << " " << meVec[i].name << " ";
+    }
+    std::cout<<std::endl;
+    std::cout << "-------------------------------------------"<<std::endl;
+
+
     auto tmp = 0;
     std::cout<<"Enter the number's index , which you want to delete: ";
     std::cin>>tmp;

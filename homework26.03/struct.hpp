@@ -36,7 +36,7 @@ typedef struct
     int flat_number;
     int post_index;
     std::string city;
-    std::string country;
+    std::string;
 } workplace;
 
 typedef struct

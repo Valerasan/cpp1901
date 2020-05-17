@@ -3,7 +3,7 @@
 
 int count(int number)
 {
-    if (number < 10)
+    if (number < 10)св
 		return number;
 	else
 		return count(number / 10) + number % 10;
